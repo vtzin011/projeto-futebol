@@ -1,4 +1,4 @@
-/* Configurações Gerais */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f7f6;
@@ -8,7 +8,7 @@ body {
 }
 
 header, footer {
-    background-color: #2e7d32; /* Verde futebol */
+    background-color: #2e7d32; 
     color: white;
     text-align: center;
     padding: 20px;
@@ -20,7 +20,7 @@ header, footer {
     padding: 0 15px;
 }
 
-/* Estilo dos Blocos de Conteúdo (Cards) */
+
 .card {
     background: white;
     padding: 20px;
@@ -29,18 +29,18 @@ header, footer {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* Estilo das Imagens */
+
 .img-futebol {
     width: 100%;
     max-height: 350px;
-    object-fit: cover; /* Faz a foto cortar certinho sem amassar */
+    object-fit: cover; 
     border-radius: 6px;
     margin: 15px 0;
 }
 
-/* Estilo dos Botões */
+
 .btn-curiosidade {
-    background-color: #1565c0; /* Azul */
+    background-color: #1565c0;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -52,10 +52,10 @@ header, footer {
 }
 
 .btn-curiosidade:hover {
-    background-color: #0d47a1; /* Azul mais escuro ao passar o mouse */
+    background-color: #0d47a1;
 }
 
-/* Lógica de Mostrar/Esconder do JavaScript */
+
 .escondido {
     display: none;
 }
